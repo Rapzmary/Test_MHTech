@@ -8,7 +8,7 @@ from django.db import models
 class register(models.Model):
     firstname = models.CharField(max_length=255)
     lastname = models.CharField(max_length=255)
-    date_of_birth = models.DateTimeField
+    date_of_birth = models.CharField(max_length=255)
     email = models.CharField(max_length=255)
     password = models.CharField(max_length=255)
 class Login(models.Model):
