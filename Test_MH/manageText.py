@@ -23,12 +23,24 @@ def adddata_intext_Data_user(data):
     f2.write(str(text))
     f2.close()
 def checkdata_for_login(email,password):
+    datasend={}
+    Token=""
     message = ""
     try:
-        f = open('./Test_MH/Text_Datauser/'+email+'.txt')
+        f = open('./Test_MH/Text_Datauser/'+email+'.txt','w')
         read=(f.readlines())[0]
         dictdata = ast.literal_eval(read)
+        if dictdata['password'] == password:
+            dictdata['Login'] == True
+
+        else:
+            message = "Password incorrect"
+            
+            
     except:
         message = "Email not found"
+    datasend['message'] == message
+    datasend['Token']==Token
+    return datasend
 
     
