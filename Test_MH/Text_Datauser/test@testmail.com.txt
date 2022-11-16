@@ -1,0 +1,1 @@
+{'email': 'test@testmail.com', 'password': 'test123', 'firstname': 'test', 'lastname': 'posttest', 'date_of_birth': '10/01/2022', 'Login': False, 'Token': '7465737440746573746d61696c2e636f6d20576564204e6f762031362031363a35323a33372032303232'}
