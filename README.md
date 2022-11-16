@@ -1,3 +1,3 @@
 # Test_MHTech
 ใช้ไฟล์ ทดสอบโปรแกรมสำหรับทดสอบโปรแกรม
-ติดตั้ง Requirment สำหรับติดตั้ง Module
+ติดตั้ง Requirement สำหรับติดตั้ง Module
