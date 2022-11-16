@@ -17,3 +17,9 @@ class LogoutSerializer(serializers.ModelSerializer):
     class Meta:
         model = Logout
         fields = ('Token')
+
+class suggest_bookSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = suggest_book
+        fields = ('Authorization','seat')
+

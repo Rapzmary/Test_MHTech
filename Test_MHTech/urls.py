@@ -20,6 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/', views.registerViewset.as_view(), name='Register'),
     path('login/', views.LoginViewset.as_view(), name='Login'),
-    #path('login/', views.LoginViewset.as_view(), name='Login'),
+    path('suggest-booking/', views.suggest_bookingViewset.as_view(), name='suggest_booking'),
 ]
 
